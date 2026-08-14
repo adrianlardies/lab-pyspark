@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+
+# Local Spark and Derby state
+.sparkStaging/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# Outputs created by the exercises
+/rdd/
+/rdd1/
+/data/salida/
+/data/output/
+/data/data/6_practice.parquet/
+/data/data/parquet/
